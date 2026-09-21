@@ -65,7 +65,11 @@ export function mountApp(root: HTMLElement): void {
   // ---- states --------------------------------------------------------------------------------------------------
   const input = h('input', { type: 'file', hidden: true });
   const chooseButton = h('button', { class: 'btn primary btn-xl', type: 'button' }, t('chooseFile'));
-  const formats = ['PNG', 'JPG', 'SVG', 'MD', 'PDF', 'DOCX', 'XLSX', 'PPTX', 'ZIP', 'HTML', 'TXT'];
+  const formats = [
+    'PNG', 'JPG', 'GIF', 'SVG', 'WEBP', 'MP4', 'MP3', 'MD', 'PDF',
+    'DOCX', 'XLSX', 'PPTX', 'DOC', 'XLS', 'ODS', 'ODP', 'ZIP',
+    'HTML', 'JSON', 'CSV', 'TXT',
+  ];
   const chips = h(
     'div',
     { class: 'format-chips' },
