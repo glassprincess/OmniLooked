@@ -1,0 +1,13 @@
+{
+  "name": "OmniView",
+  "short_name": "OmniView",
+  "description": "Client-side file viewer. Files never leave your device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
