@@ -1,6 +1,6 @@
 export type Theme = 'light' | 'dark';
 
-const STORAGE_KEY = 'omniview:theme';
+const STORAGE_KEY = 'omnilooked:theme';
 const DARK_QUERY = '(prefers-color-scheme: dark)';
 
 function readStored(): Theme | null {

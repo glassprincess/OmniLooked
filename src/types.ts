@@ -20,4 +20,4 @@ export interface ViewerModule {
 }
 
 /** Window event a viewer dispatches to open a nested file (e.g. inside an archive). */
-export const OPEN_NESTED_EVENT = 'omniview:open-nested';
+export const OPEN_NESTED_EVENT = 'omnilooked:open-nested';

@@ -4,7 +4,7 @@ import { icon } from './icons';
 
 /** Author identity shown under the dropzone. Change once, used everywhere. */
 export const GITHUB_USER = 'glassprincess';
-export const GITHUB_REPO = 'omni-view';
+export const GITHUB_REPO = 'omnilooked';
 const AVATAR_URL = 'https://avatars.githubusercontent.com/u/192819416?v=4';
 
 function httpsUrl(value: unknown): string | null {

@@ -35,7 +35,7 @@ export function mountApp(root: HTMLElement): void {
   let modeAction: (() => void) | null = null;
 
   // ---- toolbar -------------------------------------------------------------------------------------------------
-  const brand = h('div', { class: 'brand' }, 'OmniView');
+  const brand = h('div', { class: 'brand' }, 'OmniLooked');
   const backButton = h('button', { class: 'btn', type: 'button', hidden: true });
   setButton(backButton, 'back', t('back'));
   const fileName = h('div', { class: 'file-name' });
